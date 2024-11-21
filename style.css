@@ -1,0 +1,107 @@
+header{
+    background-color: #6a3460;
+    margin: 0%;
+
+    #logo1{
+        position: relative;
+        width: 10%;
+        height: 10%;
+        left: 10%;
+    }
+    .icon{
+        position: absolute;
+        right: 1%;
+        top: 0%;
+        
+        .fa-solid fa-user{
+            background: rgba(255, 255, 255, 1);
+
+        }
+    }
+    
+}
+
+body{
+    margin: 0%;
+}
+
+main{
+    .hero{
+        background-image: url(./Image/santorini.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 70%;
+        position:fixed;
+
+        h1{
+            background-color: #6a3460;
+            width: 40%;
+            position: relative;
+            top:20%;
+            left: 4%;
+            color: white;
+            font-family: "Oleo Script", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+
+    .section{
+        position: fixed;
+        top: 85%;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-around;
+        #couple{
+            position: relative;
+            width: 20%;
+            height: 20%;
+        }
+        #aventure{
+            position: relative;
+            width: 20%;
+            height: 20%;
+        }
+        #amis{
+            position: relative;
+            width: 20%;
+            height: 20%;
+        }
+        #famille{
+            position: relative;
+            width: 20%;
+            height: 20%;
+        }
+
+    }
+    
+    
+    #A{
+        position: absolute;
+        left: 30%;
+        top: 90%;
+        font-family: "Open Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #F{
+        position: absolute;
+        font-family: "Open Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #M{
+        position: absolute;
+        font-family: "Open Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #C{
+        position: absolute;
+        font-family: "Open Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+}
