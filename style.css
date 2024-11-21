@@ -32,7 +32,7 @@ main{
         background-attachment: fixed;
         width: 100%;
         height: 70%;
-        position:fixed;
+        position:absolute;
 
         h1{
             background-color: #6a3460;
@@ -48,9 +48,10 @@ main{
     }
 
     .section{
-        position: fixed;
+        position: absolute;
         top: 85%;
-        background-color: aliceblue;
+        background-color: rgba(228, 220, 226, 1);
+        ;
         display: flex;
         justify-content: space-around;
         #couple{
@@ -80,28 +81,63 @@ main{
     #A{
         position: absolute;
         left: 30%;
-        top: 90%;
+        top: 105%;
         font-family: "Open Sans", serif;
         font-weight: 400;
         font-style: normal;
     }
     #F{
         position: absolute;
+        right:  8%;
+        top: 105%;
         font-family: "Open Sans", serif;
         font-weight: 400;
         font-style: normal;
     }
     #M{
         position: absolute;
+        right: 30%;
+        top: 105%;
         font-family: "Open Sans", serif;
         font-weight: 400;
         font-style: normal;
     }
     #C{
         position: absolute;
+        left:  8%;
+        top: 105%;
         font-family: "Open Sans", serif;
         font-weight: 400;
         font-style: normal;
     }
+    .voyage{
+        background-image: url(./Image/holiday.jpg);
+        background-attachment: fixed;
+        width: 100%;
+        height: 30%;
+        position:absolute;
+        top: 120%;
+        p{
+            position: relative;
+            top: 50%;
+            font-family: "Open Sans", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+            text-align: center;
+            background-color: #6a3460;
+            
+        }
+    }
+}
 
+footer{
+    position: absolute;
+    top: 150%;
+    background-color: #6a3460;
+    width: 100%;
+    height: 20%;
+    #logo2{
+        position: relative;
+    }
 }
